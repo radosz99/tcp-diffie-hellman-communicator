@@ -1,0 +1,38 @@
+.root {
+    -fx-background-color : rgb(255, 208, 21);
+}
+
+.label {
+    -fx-text-fill: rgba(255,240,229);
+}
+
+.button{
+    -fx-border-radius:30 30 30 30;
+    -fx-background-radius:30 30 30 30;
+    -fx-background-color : rgba(35,35,35);
+    -fx-font-weight: bolder;
+    -fx-effect: dropshadow(gaussian, lightslategray  , 10.0, 0.5, 0.0, 0.0);
+    -fx-text-fill: rgba(255,240,229);
+}
+
+
+.text-area {
+    -fx-background-color: rgb(230, 230, 230);
+}
+
+
+.root {
+    -fx-background-color : rgba(10, 10, 10, .89);
+}
+
+#table{
+    -fx-blend-mode : difference;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: steelblue;
+}
+.table-row-cell:selected .text {
+    -fx-fill: rgba(255,240,229);
+
+}
