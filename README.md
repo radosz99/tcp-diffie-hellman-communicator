@@ -51,13 +51,8 @@ Where `xyz` is path to `javafx-sdk` directory.
 # Run
 Clone repository and checkout to this branch:
 ```
-$ git clone https://github.com/pwr-zak/241385.git
-$ git checkout bsiui-lab1
-$ cd bsiui
-$ cd lab1
-```
-In the `lab1` folder (with pom.xml):
-```
+$ git clone https://github.com/radosz99/tcp-diffie-hellman-communicator.git
+$ cd tcp-diffie-hellman-communicator
 $ mvn install
 $ cd target
 ```
